@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
+    android:background="@drawable/union_bg"
     tools:context=".MainActivity">
 
     <ImageView
@@ -45,12 +46,14 @@
         app:layout_constraintTop_toBottomOf="@id/startedText"/>
 
     <Button
+        android:id="@+id/joinNowButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="JOIN NOW"
         android:textColor="#ffffff"
         android:textSize="36dp"
         android:textStyle="normal"
+        android:backgroundTint="#000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
