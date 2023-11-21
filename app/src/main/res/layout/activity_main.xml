@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:text="JOIN NOW"
         android:textColor="#ffffff"
-        android:textSize="36dp"
+        android:textSize="15dp"
         android:textStyle="normal"
         android:backgroundTint="#000"
         app:layout_constraintEnd_toEndOf="parent"
