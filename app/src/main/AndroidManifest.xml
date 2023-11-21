@@ -13,6 +13,12 @@
         android:theme="@style/Theme.WomenTechstersFirstApp"
         tools:targetApi="31">
         <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateNewAccountActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
